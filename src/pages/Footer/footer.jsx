@@ -12,13 +12,11 @@ function footer() {
 
   return (
     <footer>
-      <div className="main row justify-cotent-center pt-2 row-2 px-3">
-        <div className="col-12">
-          <div className="row row-2 justify-content-between">
-            <div className="col-sm-3">
+          <div className=" main">
+            <div className="">
               <p>{json.footer.text}</p>
             </div>
-            <div className="icons col-sm-3 ml-5 order-last">
+            <div className=" ">
               {links.map((a, i) => (
                 <a
                   key={i}
@@ -32,8 +30,8 @@ function footer() {
               ))}
             </div>
           </div>
-        </div>
-      </div>
+        
+      
     </footer>
   );
 }

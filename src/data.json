@@ -1,4 +1,9 @@
+
 {
+ 
+
+
+
   "navbar": {
     "logo": "Darshan",
     "manu": [
@@ -28,7 +33,7 @@
       { "title": "JAVASCRIPT", "width": "80%" },
       { "title": "REACT JS", "width": "45%" }
     ],
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Necessitatibus ducimus cum nemo facere dolorem a in quisquam quis eius porro aperiam iste cupiditate doloremque maiores, commodi blanditiis rem recusandae veniam.  Lorem ipsum dolor sit amet consectetur adipisicing elit.  Totam rerum vel accusamus illo, explicabo quis rem quasi eum ducimus saepe ipsum nostrum incidunt quo, labore expedita hic.  Lorem ipsum dolor sit amet consectetur adipisicing elit.  Facilis atque molestiae accusamus quasi error repellat, in commodi unde neque hic quidem fugiat nostrum voluptates eveniet ad.   Adipisci incidunt quae neque."
+    "paragraph": "I'm currently a Full-Stack Developer at Frontend Army Infocon Private Limited. It's a great work experience as an Intern. By adding, also worked in 24 Live Projects.  Also, pursuing my BCA from Asia Pacific College, affilated to Gujarat University. Did'nt went to college much but I have overall 7.5GPA.  By Contrasting other activities, I'm also State Level Footballer playing as a Defender. I have some great designing experience as I did a six month course in Contemporary class organised by Bhanwar Rathore Design Studio, Mumbai."
   },
   "contectMe": {
     "title": "Contact Me",

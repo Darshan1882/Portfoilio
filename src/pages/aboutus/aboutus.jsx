@@ -6,7 +6,6 @@ import "aos/dist/aos.css";
 
 function AboutUs() {
   AOS.init();
-  // console.log(json.aboutme.paragraph.split("."))
   return (
     
     <div className="main_div " >
@@ -39,7 +38,6 @@ function AboutUs() {
           ))}
         </div>
       </div>
-      {/* <div id="contect me" /> */}
     </div>
   );
 }

@@ -26,7 +26,7 @@
 }
 .para {
   grid-column: 4/5;
-  font-size: 15px;
+  font-size: 18px;
   font-family: "Poppins", sans-serif;
   animation: animate-nagativ 2s;
 }
@@ -59,35 +59,16 @@
   top: 3px;
   right: 8px;
 }
-/* @keyframes animate-positive {
-  0% {
-    transform: translateX(-200px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-@keyframes animate-positive {
-  0% {
-    transform: translateX(-200px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-@keyframes animate-nagativ {
-  0% {
-    transform: scale(0, 0.025);
-  }
-  50% {
-    transform: scale(1, 0.025);
-  }
-} */
 
 @media only screen and (max-width: 1320px) {
   .second_div {
     display: flow-root;
     margin-left: 6%;
     margin-right: 6%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .main_div{
+    height: 850px;
   }
 }
