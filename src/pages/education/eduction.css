@@ -1,0 +1,24 @@
+.Eduction {
+  user-select: none;
+  padding-bottom: 20px;
+  height: 800px;    
+  background-color: #c9c8c8;
+
+}
+.he {
+  color: rgb(7, 7, 152);
+  padding-top: 6%;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+}
+@media only screen and (max-width: 768px){
+  .he{
+    padding-top:10%
+  }
+}
+@media only screen and (max-width: 425px){
+  .he{
+    padding-top:23%
+  }
+}

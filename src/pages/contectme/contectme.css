@@ -1,0 +1,95 @@
+.contectme {
+  user-select: none;
+}
+.anckor {
+  text-decoration: none;
+  color: black;
+}
+.left-side {
+  width: 850px;
+}
+
+.hading {
+  margin-top: 5%;
+  color: rgb(7, 7, 152);
+  text-align: center;
+  font-size: 60px;
+  padding-top: 5%;
+}
+.contectme_logo {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 21rem 18rem 18rem 18rem 21rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.bi-1 {
+  grid-column: 2/3;
+}
+.contectme_logo p {
+  margin-top: 20px;
+}
+
+.containers {
+  user-select: none;
+  height: 700px;
+  background-color: #c9c8c8;
+}
+
+form {
+  align-items: center;
+  justify-content: center;
+  grid-column: 4/5;
+}
+.submit {
+  text-align: center;
+}
+.par {
+  width: 50%;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.mainn {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 10rem 36rem 4rem 36rem 10rem;
+}
+.npm {
+  grid-column: 2/3;
+}
+iframe {
+  border-radius: 10px;
+}
+.submit {
+  position: relative;
+  display: inline-block;
+  /* padding: 0px 20px; */
+  color: #03e9f4;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  /* margin-top: 40px; */
+  letter-spacing: 4px;
+}
+.submit:hover {
+  background: #d9534f;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #d9534f, 0 0 25px #d9534f, 0 0 50px #d9534f,
+    0 0 100px #d9534f;
+}
+
+@media only screen and (max-width: 1485px) {
+  .mainn {
+    display: flow-root;
+    width: 75%;
+    margin-left: 13%;
+  }
+  .containers {
+    margin-top: 250px;
+    height: 1024px;
+  }
+}

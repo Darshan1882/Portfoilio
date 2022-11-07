@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+
+.navbar {
+  user-select: none; 
+  background: #c9c8c8;
+  box-shadow: 2px 5px 5px #888888;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  animation:new 2s ;
+  margin-top: -80px;
+}
+@keyframes new {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-50px);
+    -moz-transform: translateY(-50px);
+    -ms-transform: translateY(-50px);
+    -o-transform: translateY(-50px);
+    transform: translateY(-50px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+}
+.nevbar {
+  font-family: "Comforter Brush", cursive;
+  font-size: 40px;
+  color: rgb(7, 7, 152);
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+
+.nav-link {
+  width: 100px;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px;
+  color: black;
+}
+.navbar-nav{
+  margin: 0px 60px;
+}
+
+.row {
+  --bs-gutter-x: 0rem;
+}
+.active
+{
+    transform: scale(1.5);
+  
+} 
+.navbar-toggler{
+  margin-right: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 768px){
+  .navbar-nav {
+      align-items: center;
+    }
+ } 

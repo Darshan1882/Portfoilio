@@ -1,0 +1,51 @@
+{
+  "navbar": {
+    "logo": "Darshan",
+    "manu": [
+      { "title": "home" },
+      { "title": "education" },
+      { "title": "about" },
+      { "title": "contact" }
+    ]
+  },
+  "home": {
+    "title": "Patel Darshan",
+    "text": "I'm a Developer",
+    "links": {
+      "linkedinIn": "https://www.linkedin.com/in/patel-darshan-23b747249",
+      "facebook": "https://www.facebook.com/people/Patel-Darshan/100046886688223/",
+      "instagram": "https://www.instagram.com/darshan_188/"
+    }
+  },
+  "education": {
+    "title": "Education"
+  },
+  "aboutMe": {
+    "title": "About Me",
+    "progress": [
+      { "title": "HTML5", "width": "85%" },
+      { "title": "CSS", "width": "80%" },
+      { "title": "JAVASCRIPT", "width": "80%" },
+      { "title": "REACT JS", "width": "45%" }
+    ],
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Necessitatibus ducimus cum nemo facere dolorem a in quisquam quis eius porro aperiam iste cupiditate doloremque maiores, commodi blanditiis rem recusandae veniam.  Lorem ipsum dolor sit amet consectetur adipisicing elit.  Totam rerum vel accusamus illo, explicabo quis rem quasi eum ducimus saepe ipsum nostrum incidunt quo, labore expedita hic.  Lorem ipsum dolor sit amet consectetur adipisicing elit.  Facilis atque molestiae accusamus quasi error repellat, in commodi unde neque hic quidem fugiat nostrum voluptates eveniet ad.   Adipisci incidunt quae neque."
+  },
+  "contectMe": {
+    "title": "Contact Me",
+    "paragraph": "I am available on almost every social media. You can message me, Iwill reply within 24 hours. I can help you with React Development.",
+    "data": {
+      "mail": "pateldarshan.frontendarmy@gmail.com",
+      "phone": "+91 8780806164",
+      "address": "24/A,Janta Socity,Talod"
+    },
+    "links": {
+      "mail": "mailto:pateldarshan.frontendarmy@gmail.com",
+      "phone": "tel:+91 8780806164",
+      "address": "https://goo.gl/maps/iPkaGmZPUdoWew376"
+    },
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d444.75229387610324!2d72.95824271655587!3d23.353952520820588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395ddb7035715b0f%3A0xcd3cfa09cde5741e!2sPokar%20Tractar%20Garg!5e1!3m2!1sen!2sin!4v1665753773719!5m2!1sen!2sin"
+  },
+  "footer": {
+    "text": " Copyright ©2022 Patel Darshan"
+  }
+}
