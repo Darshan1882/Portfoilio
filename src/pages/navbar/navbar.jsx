@@ -8,9 +8,9 @@ const Navbar = (props) => {
   return (
     <>
       <nav className="navbar navbar-expand-lg  sticky-top">
-        <Link className="nevbar" to="home">
+        {/* <Link className="nevbar" to="home">
           {json.navbar.logo}
-        </Link>
+        </Link> */}
 
         <button
           className="navbar-toggler "
