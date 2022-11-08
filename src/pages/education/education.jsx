@@ -35,7 +35,7 @@ const Education = () => {
       <div className="Eduction" id="education">
         <div>
           <h1 className="he">{json.education.title}</h1>
-          <div>
+          <div className="vartical">
             <VerticalTimeline lineColor="black">
               {Icons.map((a, index) => (
                 <VerticalTimelineElement

@@ -16,7 +16,7 @@ function footer() {
             <div className="">
               <p>{json.footer.text}</p>
             </div>
-            <div className=" ">
+            <div className="icon">
               {links.map((a, i) => (
                 <a
                   key={i}

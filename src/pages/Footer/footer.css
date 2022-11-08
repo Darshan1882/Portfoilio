@@ -23,4 +23,7 @@ footer {
   .main div {
     text-align: center;
   }
+  .icon{
+    margin-left: 45px;
+  }
 }
