@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./contectme.css";
+import "./contact.css";
 import json from "../../data.json";
 import axios from "axios";
 

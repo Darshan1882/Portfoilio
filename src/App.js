@@ -3,9 +3,9 @@ import Navbar from "./pages/navbar/navbar";
 import "./App.css";
 import Home from "./pages/home/home";
 import Education from "./pages/education/education";
-import Contectme from "./pages/contectme/contectme";
+import Contactme from "./pages/contact/contact";
 import AboutUs from "./pages/aboutus/aboutus";
-import Footer from "./pages/Footer/footer";
+import Footer from "./pages/footer/footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useOnScreen } from "./component/hooks";
 
@@ -40,7 +40,7 @@ function App() {
         <AboutUs />
       </div>
       <div ref={contactRef}>
-        <Contectme />
+        <Contactme />
       </div>
       <div>
         <Footer />
