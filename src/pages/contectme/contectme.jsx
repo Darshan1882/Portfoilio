@@ -66,8 +66,8 @@ const Contact = () => {
     }
   };
   return (
-    <div className="containers mt-9 " id="contact">
-      <h1 className="hading">{json.contectMe.title}</h1>
+    <div className="containers ">
+      <h1 className="hading"  id="contact">{json.contectMe.title}</h1>
       <div className="mainn">
         <div className="npm">
           <iframe

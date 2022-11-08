@@ -33,8 +33,9 @@
 
 .containers {
   user-select: none;
-  height: 700px;
+  height: 100%;
   background-color: #c9c8c8;
+  margin-bottom: 5%;
 }
 
 form {
@@ -90,18 +91,18 @@ iframe {
   }
   .containers {
     margin-top: 100px;
-    height: 1024px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .containers{
-    padding-top:35px
+  .containers {
+    padding-top: 35px;
   }
-
 }
 @media only screen and (max-width: 425px) {
-  .containers{
-    padding-top:110px
+  .containers {
+    padding-top: 110px;
   }
-
+  .hading {
+    padding-top: 21%;
+  }
 }

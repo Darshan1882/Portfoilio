@@ -2,7 +2,7 @@
   padding-bottom: 10%;
   background-color: #c9c8c8;
   user-select: none;
-  height: 750px;
+  /* height: 750px; */
 }
 .hadding {
   font-size: 110px;
@@ -67,6 +67,7 @@
     margin-right: 6%;
   }
 }
+
 @media only screen and (max-width: 425px) {
   .main_div{
     height: 850px;

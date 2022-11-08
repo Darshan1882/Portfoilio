@@ -10,7 +10,7 @@
   width: 100%;
 }
 .name {
-  color: rgb(13 13 229);
+  color: rgb(7, 7, 152);
   text-align: center;
   margin-left: 0%;
   padding-top: 20%;
@@ -18,7 +18,7 @@
   font-size: 70px;
 }
 .p {
-  color: rgb(72 69 69);;
+  color: rgb(7, 7, 7);;
   text-align: center;
   font-size: 35px;
   font-family: "Poppins", sans-serif;

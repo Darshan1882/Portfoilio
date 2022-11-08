@@ -5,7 +5,6 @@ import json from "../../data.json";
 
 const Navbar = (props) => {
   const { payload } = props;
-  // console.log(props);
   return (
     <>
       <nav className="navbar navbar-expand-lg  sticky-top">
@@ -28,7 +27,7 @@ const Navbar = (props) => {
         <div className="collapse  navbar-collapse  " id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">
             {json.navbar.manu.map((a, index) => (
-              <li
+              <li 
                 className={
                   payload[index].title === a.title && payload[index].active
                     ? "nav-item active"
@@ -37,6 +36,7 @@ const Navbar = (props) => {
                 key={index}
               >
                 <Link
+                  
                   className="nav-link text-dark text-capitalize"
                   to={a.title}
                 >
