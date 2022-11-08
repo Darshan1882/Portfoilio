@@ -1,0 +1,29 @@
+footer {
+  user-select: none;
+  background-color: #8c8cc5;
+}
+.main {
+  height: 50px;
+  top: 10%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  padding-top: 15px;
+}
+.main a {
+  margin-right: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    height: 90px;
+    display: flow-root;
+    margin-left: 15px;
+  }
+  .main div {
+    text-align: center;
+  }
+  .icon{
+    margin-left: 45px;
+  }
+}
