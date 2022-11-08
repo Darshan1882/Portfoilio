@@ -1,9 +1,4 @@
-
 {
- 
-
-
-
   "navbar": {
     "logo": "Darshan",
     "manu": [
@@ -17,7 +12,7 @@
     "title": "Patel Darshan",
     "text": "I'm a Developer",
     "links": {
-      "linkedinIn": "https://www.linkedin.com/in/patel-darshan-23b747249",
+      "linkedin": "https://www.linkedin.com/in/patel-darshan-23b747249",
       "facebook": "https://www.facebook.com/people/Patel-Darshan/100046886688223/",
       "instagram": "https://www.instagram.com/darshan_188/"
     }

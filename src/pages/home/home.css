@@ -61,3 +61,8 @@
     font-size: 20px;
   }
 }
+@media only screen and (min-height: 600px){
+  .Home{
+    height: 600px;
+  }
+}
