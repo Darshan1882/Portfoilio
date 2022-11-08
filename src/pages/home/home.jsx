@@ -31,7 +31,7 @@ const Home = () => {
                 <a
                   key={i}
                   href={a.link}
-                  style={{ color: "white", fontSize: "35px" }}
+                  style={{ color: "white" }}
                   target="_blank"
                   rel="noopener noreferrer"
                 >

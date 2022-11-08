@@ -18,7 +18,7 @@
   font-size: 70px;
 }
 .p {
-  color: rgb(7, 7, 7);;
+  color: rgb(253, 253, 253);;
   text-align: center;
   font-size: 35px;
   font-family: "Poppins", sans-serif;
@@ -29,6 +29,7 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  font-size: 35px;
 }
 .Home a {
   margin-left: 15px;
@@ -42,5 +43,21 @@
 @media only screen and (max-width: 425px){
   .main_div_{
     padding-top: 32%;
+  }
+}
+@media only screen and (max-height: 500px){
+  .main_div_{
+    margin-top: 20px;
+  }
+  .name{
+    /* margin-top: 2%; */
+    padding-top:5%;
+    font-size: 50px;
+  }
+  .p{
+    font-size: 25px;
+  }
+  .logos a{
+    font-size: 20px;
   }
 }
