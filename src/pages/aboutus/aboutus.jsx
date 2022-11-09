@@ -16,15 +16,15 @@ function AboutUs() {
         <div className="container" data-aos={"zoom-in-down"}>
           <div className="row">
             <div className="col-lg-11">
-              {json.aboutMe.progress.map((a, i) => (
-                <div key={i}>
-                  <h3 className="progress-title">{a.title}</h3>
+              {json.aboutMe.progress.map((progress,index) => (
+                <div key={`progress_bar${index}`}>
+                  <h3 className="progress-title">{progress.title}</h3>
                   <div className="progress">
                     <div
                       className="progress-bar progress-bar-danger"
-                      style={{ width: a.width }}
+                      style={{ width: progress.width }}
                     >
-                      <div className="progress-value">{a.width}</div>
+                      <div className="progress-value">{progress.width}</div>
                     </div>
                   </div>
                 </div>
@@ -33,8 +33,8 @@ function AboutUs() {
           </div>
         </div>
         <div className="para" data-aos={"zoom-in-down"}>
-          {json.aboutMe.paragraph.split("  ").map((a, index) => (
-            <p key={index}>{a}</p>
+          {json.aboutMe.paragraph.map((paragraph, index) => (
+            <p key={`about_us_paragraph${index}`}>{paragraph}</p>
           ))}
         </div>
       </div>

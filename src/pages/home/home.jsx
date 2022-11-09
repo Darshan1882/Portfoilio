@@ -27,15 +27,15 @@ const Home = () => {
           </p>
           <p className="p">{json.home.text} </p>
           <div className="logos">
-            {links.map((a, i) => (
+            {links.map((links, index) => (
                 <a
-                  key={i}
-                  href={a.link}
+                  key={`home_icons_links${index}`}
+                  href={links.link}
                   style={{ color: "white" }}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {a.icon}
+                  {links.icon}
                 </a>
 ))}
           </div>

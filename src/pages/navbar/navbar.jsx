@@ -26,21 +26,21 @@ const Navbar = (props) => {
 
         <div className="collapse  navbar-collapse " id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">
-            {json.navbar.manu.map((a, index) => (
+            {json.navbar.manu.map((active, index) => (
               <li 
                 className={
-                  payload[index].title === a.title && payload[index].active
+                  payload[index].title === active.title && payload[index].active
                     ? "nav-item active"
                     : "nav-item"
                 }
-                key={index}
+                key={`nevbar_activa${index}`}
               >
                 <Link
                   
                   className="nav-link text-dark text-capitalize"
-                  to={a.title}
+                  to={active.title}
                 >
-                  {a.title}
+                  {active.title}
                 </Link>
               </li>
             ))}

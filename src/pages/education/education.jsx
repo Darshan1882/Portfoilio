@@ -37,18 +37,18 @@ const Education = () => {
           <h1 className="he">{json.education.title}</h1>
           <div className="vartical">
             <VerticalTimeline lineColor="black">
-              {Icons.map((a, index) => (
+              {Icons.map((icon_data, index) => (
                 <VerticalTimelineElement
-                  key={index}
+                  key={`education_Icons${index}`}
                   className="vertical-timeline-element--education"
-                  date={a.date}
+                  date={icon_data.date}
                   iconStyle={{ background: "black", color: "white" }}
-                  icon={a.icon}
+                  icon={icon_data.icon}
                 >
                   <h3 className="vertical-timeline-element-title">
-                    {a.heading}
+                    {icon_data.heading}
                   </h3>
-                  <p>{a.text}</p>
+                  <p>{icon_data.text}</p>
                 </VerticalTimelineElement>
               ))}
             </VerticalTimeline>

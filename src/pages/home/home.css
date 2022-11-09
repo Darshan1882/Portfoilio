@@ -61,8 +61,8 @@
     font-size: 20px;
   }
 }
-@media only screen and (min-height: 745px){
+@media only screen and (min-height: 746px){
   .Home{
-    height: 745px;
+    height: 746px;
   }
 }

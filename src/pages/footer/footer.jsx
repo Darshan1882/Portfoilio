@@ -13,19 +13,19 @@ function footer() {
   return (
     <footer>
           <div className=" main">
-            <div className="">
+            <div>
               <p>{json.footer.text}</p>
             </div>
             <div className="icon">
-              {links.map((a, i) => (
+              {links.map((link, index) => (
                 <a
-                  key={i}
-                  href={a.link}
+                  key={`social_media_${index}`}
+                  href={link.link}
                   style={{ color: "#545658", fontSize: "20px" }}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {a.icon}
+                  {link.icon}
                 </a>
               ))}
             </div>

@@ -28,7 +28,11 @@
       { "title": "JAVASCRIPT", "width": "80%" },
       { "title": "REACT JS", "width": "45%" }
     ],
-    "paragraph": "I'm currently a Full-Stack Developer at Frontend Army Infocon Private Limited. It's a great work experience as an Intern. By adding, also worked in 24 Live Projects.  Also, pursuing my BCA from Asia Pacific College, affilated to Gujarat University. Did'nt went to college much but I have overall 7.5GPA.  By Contrasting other activities, I'm also State Level Footballer playing as a Defender. I have some great designing experience as I did a six month course in Contemporary class organised by Bhanwar Rathore Design Studio, Mumbai."
+    "paragraph": [
+      "I'm currently a Full-Stack Developer at Frontend Army Infocon Private Limited. It's a great work experience as an Intern. By adding, also worked in 24 Live Projects.",
+      " Also, pursuing my BCA from Asia Pacific College, affilated to Gujarat University. Did'nt went to college much but I have overall 7.5GPA.",
+      " By Contrasting other activities, I'm also State Level Footballer playing as a Defender. I have some great designing experience as I did a six month course in Contemporary class organised by Bhanwar Rathore Design Studio, Mumbai."
+    ]
   },
   "contectMe": {
     "title": "Contact Me",

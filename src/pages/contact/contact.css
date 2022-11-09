@@ -42,7 +42,6 @@ form {
   align-items: center;
   justify-content: center;
   grid-column: 4/5;
-  margin-top: 6%;
 }
 .submit {
   text-align: center;
@@ -89,6 +88,9 @@ iframe {
     display: flow-root;
     width: 75%;
     margin-left: 13%;
+  }
+  form{
+  margin-top: 6%;
   }
   .containers {
     margin-top: 100px;

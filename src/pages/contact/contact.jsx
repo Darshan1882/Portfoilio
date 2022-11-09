@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./contact.css";
 import json from "../../data.json";
 import axios from "axios";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -10,6 +12,7 @@ const Contact = () => {
   const [emailError, setemailError] = useState(false);
   const [message, setMessage] = useState("");
   const [messageError, setmessageError] = useState(false);
+  const [loader, Setloder] = useState(false);
   const nameRegex = /^[a-z ,.'-]+$/i;
   const emailRegex = /\S+@\S+\.\S+/;
 
@@ -51,6 +54,7 @@ const Contact = () => {
   const onSubmit = (e) => {
     e.preventDefault();
     if (validation()) {
+      Setloder(true);
       axios
         .post("https://633eb5ab0dbc3309f3bb64fb.mockapi.io/portfolio", {
           name: name.trim(),
@@ -58,16 +62,23 @@ const Contact = () => {
           message: message.trim(),
         })
         .then((e) => {
-
+          toast.success("Data Sent Successfully");
+          Setloder(false);
           setName("");
           setEmail("");
           setMessage("");
-        });
+        })
+        .catch((err) =>{
+          toast.error(err.message)
+          Setloder(false);
+        })
     }
   };
   return (
     <div className="containers ">
-      <h1 className="hading"  id="contact">{json.contectMe.title}</h1>
+      <h1 className="hading" id="contact">
+        {json.contectMe.title}
+      </h1>
       <div className="mainn">
         <div className="npm">
           <iframe
@@ -128,16 +139,39 @@ const Contact = () => {
             <div className="text-danger">{messageError}</div>
           </div>
           <div className="submit">
-            <button
-              className="btn btn-danger "
-              type="submit"
-              onClick={onSubmit}
-            >
-              submit
-            </button>
+            {loader ? (
+              <button className="btn btn-primary" type="button" disabled>
+                <span
+                  className="spinner-border spinner-border-sm"
+                  role="status"
+                  aria-hidden="true"
+                ></span>
+                Loading...
+              </button>
+            ) : (
+              <button
+                className="btn btn-danger "
+                type="submit"
+                onClick={onSubmit}
+              >
+                submit
+              </button>
+            )}
           </div>
         </form>
       </div>
+      <ToastContainer
+        position="bottom-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
     </div>
   );
 };
