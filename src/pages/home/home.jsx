@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 import ScrollToTop from "react-scroll-to-top";
 
 
-import { FaLinkedinIn, FaFacebookF, FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn, FaFacebookF, FaInstagram,FaGithub } from "react-icons/fa";
 
 const Home = () => {
   
@@ -15,6 +15,7 @@ const Home = () => {
     AOS.refresh();  
   }, []);
   const links =[
+    {icon:<FaGithub />,link:json.home.links.github},
     {icon:<FaLinkedinIn /> ,link:json.home.links.linkedinIn},
     {icon:<FaFacebookF />,link:json.home.links.facebook},
     {icon:<FaInstagram />,link: json.home.links.instagram}

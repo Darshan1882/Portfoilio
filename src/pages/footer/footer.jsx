@@ -1,10 +1,11 @@
 import React from "react";
 import "./footer.css";
-import { FaLinkedinIn, FaFacebookF, FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn, FaFacebookF, FaInstagram,FaGithub } from "react-icons/fa";
 import json from "../../data.json";
 
 function footer() {
   const links =[
+    {icon:<FaGithub />,link:json.home.links.github},
     {icon:<FaLinkedinIn /> ,link:json.home.links.linkedin},
     {icon:<FaFacebookF />,link:json.home.links.facebook},
     {icon:<FaInstagram />,link: json.home.links.instagram}
