@@ -43,7 +43,7 @@ const Home = () => {
           </div>
           <div />
         </div>
-        <ScrollToTop color=""/>
+        <ScrollToTop />
       </section>
     </div>
   );
