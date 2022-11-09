@@ -12,12 +12,13 @@
   font-family: "Poppins", sans-serif;
   font-size: 60px;
 }
-.vartical { 
-  width: 90%;
-}
+
 @media only screen and (max-width: 768px){
   .he{
     padding-top:10%
+  }
+  .vartical { 
+    width: 90%;
   }
 }
 @media only screen and (max-width: 425px){
