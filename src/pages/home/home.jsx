@@ -3,6 +3,8 @@ import "./home.css";
 import json from "../../data.json";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import ScrollToTop from "react-scroll-to-top";
+
 
 import { FaLinkedinIn, FaFacebookF, FaInstagram } from "react-icons/fa";
 
@@ -41,6 +43,7 @@ const Home = () => {
           </div>
           <div />
         </div>
+        <ScrollToTop color=""/>
       </section>
     </div>
   );
