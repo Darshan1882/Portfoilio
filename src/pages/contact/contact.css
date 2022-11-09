@@ -75,13 +75,6 @@ iframe {
   /* margin-top: 40px; */
   letter-spacing: 4px;
 }
-.submit:hover {
-  background: #d9534f;
-  color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 5px #d9534f, 0 0 25px #d9534f, 0 0 50px #d9534f,
-    0 0 100px #d9534f;
-}
 
 @media only screen and (max-width: 1485px) {
   .mainn {

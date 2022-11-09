@@ -154,7 +154,7 @@ const Contact = () => {
                 type="submit"
                 onClick={onSubmit}
               >
-                submit
+                Submit
               </button>
             )}
           </div>
