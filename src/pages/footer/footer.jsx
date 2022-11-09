@@ -5,7 +5,7 @@ import json from "../../data.json";
 
 function footer() {
   const links =[
-    {icon:<FaLinkedinIn /> ,link:json.home.links.linkedinIn},
+    {icon:<FaLinkedinIn /> ,link:json.home.links.linkedin},
     {icon:<FaFacebookF />,link:json.home.links.facebook},
     {icon:<FaInstagram />,link: json.home.links.instagram}
   ]

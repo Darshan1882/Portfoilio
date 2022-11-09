@@ -42,8 +42,8 @@ const Home = () => {
 ))}
           </div>
           <div />
-        </div>
         <ScrollToTop />
+        </div>  
       </section>
     </div>
   );
