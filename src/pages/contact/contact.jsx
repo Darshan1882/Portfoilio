@@ -20,7 +20,7 @@ const Contact = () => {
     let formisvalid = true;
 
     if (name.trim().length === 0) {
-      setnameError("Please Enter Name");
+      setnameError("This is a required field");
       formisvalid = false;
     } else if (nameRegex.test(name)) {
       setnameError("");
@@ -30,7 +30,7 @@ const Contact = () => {
     }
 
     if (email.trim().length === 0) {
-      setemailError("Please Enter Email");
+      setemailError("This is a required field");
       formisvalid = false;
     } else if (emailRegex.test(email)) {
       setemailError("");
@@ -40,7 +40,7 @@ const Contact = () => {
     }
 
     if (message.trim().length === 0) {
-      setmessageError("Please Enter Message ");
+      setmessageError("This is a required field");
       formisvalid = false;
     } else if (nameRegex.test(message)) {
       setmessageError("");
@@ -101,6 +101,7 @@ const Contact = () => {
                 setName(event.target.value),
                 setnameError(""),
               ]}
+              placeholder="Name*"
               value={name}
               type="text"
               id="name"
@@ -117,6 +118,7 @@ const Contact = () => {
                 setEmail(event.target.value),
                 setemailError(""),
               ]}
+              placeholder="Email*"
               value={email}
               type="email"
               id="email"
@@ -133,6 +135,7 @@ const Contact = () => {
                 setMessage(event.target.value),
                 setmessageError(""),
               ]}
+              placeholder="Message*"
               value={message}
               id="message"
             />
@@ -163,6 +166,7 @@ const Contact = () => {
       <ToastContainer
         position="bottom-right"
         autoClose={5000}
+        limit={2}
         hideProgressBar={false}
         newestOnTop={false}
         closeOnClick
