@@ -6,7 +6,7 @@ import Education from "./pages/education/education";
 import Contactme from "./pages/contact/contact";
 import AboutUs from "./pages/aboutus/aboutus";
 import Footer from "./pages/footer/footer";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";  
 import { useOnScreen } from "./component/hooks";
 
 function App() {

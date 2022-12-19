@@ -53,6 +53,7 @@ const Contact = () => {
 
   const onSubmit = (e) => {
     e.preventDefault();
+    
     if (validation()) {
       Setloder(true);
       axios
@@ -149,7 +150,7 @@ const Contact = () => {
                   role="status"
                   aria-hidden="true"
                 ></span>
-                Loading...
+                  Loading...
               </button>
             ) : (
               <button
